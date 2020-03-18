@@ -6,7 +6,8 @@ Table of Contents:
 - [Windows 10 Fresh Install](#fresh-install)
 	- [Creating A  Bootable Flash Drive](#boot-drive)
 	- [BIOS Configuration](#bios)
-	- [Disabling Secure Boot](#secure-boot)
+		- [Set UEFI Interface](#uefi)
+		- [Disabling Secure Boot](#secure-boot)
 	- [Booting From Flash Drive](#boot-from)
 - [Windows 10 Setup](#setup)
 
@@ -24,7 +25,7 @@ Note: Step still in the works.
 
 #### BIOS Configuration
 
-Our bootable drive will be created with the UEFI interface. This is a new type of interface that allows interaction of Software between the Operating System and Firmware. We need to configure this in the computers BIOS.
+Our bootable drive will be created with the UEFI interface. This is a new type of interface that allows interaction of Software between the Operating System and Firmware. We need to configure this in the computers BIOS. The BIOS must be setup to support UEFI. We also need to disable Secure Boot to perform a fresh install.
 
 ##### Reaching the BIOS menu
 - First, shut off your computer.
@@ -32,5 +33,17 @@ Our bootable drive will be created with the UEFI interface. This is a new type o
 
 ![](https://philipyip.files.wordpress.com/2016/07/dell-business-uefi-bios.png?w=920&h=522)
 
-	Note: This menu will look uniquely different on other brands. This method illustrates Dell's BIOS.
+	Note: This menu will look uniquely different on other brands. This method illustrates the BIOS found on Dell computers.
+
+##### Set UEFI Interface
+- Click on "General" settings and then on "Boot Sequence"
+- Make sure "UEFI" is ticked and not "Legacy", then click on "Apply"
+
+![](https://static.spiceworks.com/shared/post/0021/8341/UEFI_BIOS_Boot_Select.png)
+
+- Next click on "Secure Boot" settings and then "Secure Boot Enable" and make sure that "Disabled" is ticked under the "Secure Boot Enable" option.
+
+![](https://kbimg.dell.com/library/KB/DELL_ORGANIZATIONAL_GROUPS/DELL_GLOBAL/Content%20Team/UEFI_BIOS_SecureBoot_Disabled.png)
+
+- Click on "Apply", then "Exit" to reboot your computer.
 
