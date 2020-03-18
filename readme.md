@@ -9,6 +9,7 @@ Table of Contents:
 		- [Set UEFI Interface](#uefi)
 		- [Disabling Secure Boot](#secure-boot)
 	- [Booting From Flash Drive](#boot-from)
+		- [Configure Boot Priority](#priority)
 - [Windows 10 Setup](#setup)
 
 ---
@@ -21,7 +22,7 @@ A fresh install means that we will be installing a fresh copy of Windows 10 on t
 
 The first step is to create a bootable drive.
 
-Note: Step still in the works.
+	Note: Step still in the works.
 
 #### BIOS Configuration
 
@@ -46,4 +47,19 @@ Our bootable drive will be created with the UEFI interface. This is a new type o
 ![](https://kbimg.dell.com/library/KB/DELL_ORGANIZATIONAL_GROUPS/DELL_GLOBAL/Content%20Team/UEFI_BIOS_SecureBoot_Disabled.png)
 
 - Click on "Apply", then "Exit" to reboot your computer.
+
+	Note: Before your click on "Exit", look at the next step to prepare.
+
+#### Booting From Flash Drive
+
+We will be installing the Windows 10 OS with a bootable drive. It is essential that you check the previous steps to guarantee and successful installation.
+
+##### Configure Boot Priority
+- To reach the boot menu, press the key "F12" before the computer boots. Usually a a logo of computer's brand will appear before the computer boots. Press "F12" at least once to initiate the boot menu.
+- You should then reach boot menu. Make sure the Boot is set to UEFI and Secure Boot is off.
+- If the above is achieved, then use your arrow keys on the keyboard to navigate to "UEFI: <YOURFLASHDRIVESNAME>". Press enter start the boot.
+
+![](https://imgur.com/0h7t5tZ)
+
+- The computer should lead to Windows 10 install wizard
 
