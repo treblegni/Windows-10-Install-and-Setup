@@ -59,7 +59,7 @@ We will be installing the Windows 10 OS with a bootable drive. It is essential t
 - You should then reach boot menu. Make sure the Boot is set to UEFI and Secure Boot is off.
 - If the above is achieved, then use your arrow keys on the keyboard to navigate to "UEFI: <YOURFLASHDRIVESNAME>". Press enter start the boot.
 
-![](https://imgur.com/0h7t5tZ)
+![](https://i.imgur.com/0h7t5tZ.png)
 
 - The computer should lead to Windows 10 install wizard
 
