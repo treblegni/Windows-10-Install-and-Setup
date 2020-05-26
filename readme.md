@@ -4,14 +4,15 @@ This guide is meant for learning purposes and must not be applied in professiona
 
 Table of Contents:
 - [Windows 10 Fresh Install](#windows-10-fresh-install)
-	- [Creating A  Bootable Flash Drive](#boot-drive)
-	- [BIOS Configuration](#bios)
-		- [Set UEFI Interface](#uefi)
-		- [Disabling Secure Boot](#secure-boot)
-	- [Booting From Flash Drive](#boot-from)
-		- [Configure Boot Priority](#priority)
+	- [Creating A  Bootable Flash Drive](#Creating-A-Bootable-Flash-Drive)
+	- [BIOS Configuration](#bios-configuration)
+		- [Reaching The BIOS Menu](#-Reaching-the-BIOS-menu)
+		- [Set UEFI Interface](#Set-UEFI-Interface)
+		- [Disabling Secure Boot](#Disabling-Secure-Boot)
+	- [Booting From Flash Drive](#Booting-From-Flash-Drive)
+		- [Configure Boot Priority](#Configure-Boot-Priority)
 	- [Windows 10 Installation](#windows-10-installation)
-		- [Installation Wizard](#wizard)
+		- [Configuring The Installation](#Configuring-The-Installation)
 - [Windows 10 Setup](#setup)
 
 ---
@@ -43,6 +44,8 @@ Our bootable drive will be created with the UEFI interface. This is a new type o
 - Make sure "UEFI" is ticked and not "Legacy", then click on "Apply"
 
 ![](https://static.spiceworks.com/shared/post/0021/8341/UEFI_BIOS_Boot_Select.png)
+
+##### Disabling Secure Boot
 
 - Next click on "Secure Boot" settings and then "Secure Boot Enable" and make sure that "Disabled" is ticked under the "Secure Boot Enable" option.
 
